@@ -10,4 +10,9 @@ $(document).ready(function() {
     $("#cat-hidden").fadeToggle();
   });
 
+  $(".expand").click(function(){
+    $(".text-hidden").fadeToggle();
+    $(".text-showing").fadeToggle();
+  });
+
 });

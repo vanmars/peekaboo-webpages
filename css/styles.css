@@ -19,3 +19,10 @@
   width: 500px;
   height: auto;
 }
+.text-hidden{
+  display: none;
+}
+.expand{
+  cursor: pointer;
+  color: #0088cc;
+}
