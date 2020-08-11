@@ -2,11 +2,20 @@
   display: none;
 }
 
-.clickable {
+#cat-showing {
+  display: none;
+}
+
+.clickable, .clickable2 {
   cursor: pointer;
   color: #0088cc;
 }
 
-.clickable:hover {
+.clickable:hover, .clickable2:hover {
   text-decoration: underline;
+}
+
+.picture {
+  width: 500px;
+  height: auto;
 }
